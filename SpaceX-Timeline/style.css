@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#example-img {
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: 10vh;
+}
+
+#timeline {
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: 30vw;
+}
