@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to left, #fcc, #eee);
+}
+.title {
+  position: absolute;
+  left: 50%;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 4em;
+  width: 90vw;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.buttons button {
+  position: absolute;
+  width: 3em;
+  height: 1.3em;
+  font-size: 3em;
+  top: 6em;
+  left: 7em;
+  background: #ffaaaa;
+  border: none;
+  cursor: pointer;
+}
+.buttons button:hover {
+  background: #ff7777;
+  color: #ddd;
+  transition: 0.2s;
+}
+
+.buttons #b {
+  right: 7em;
+  left: auto;
+  transition: 0.3s;
+}
